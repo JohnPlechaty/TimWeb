@@ -82,7 +82,6 @@ body {
 
 /*header section*/
 .hero_area {
-  min-height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -925,3 +924,42 @@ a:focus {
 
 /* end footer section*/
 /*# sourceMappingURL=style.css.map */
+
+.heading {
+  margin-top: 0;
+  text-transform: uppercase;
+  font-size: 3rem;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.phone-heading {
+  margin-top: 10px;
+  color: #acacac;
+  font-size: 20px;
+}
+
+.phone {
+  font-size: 30px;
+  color: red;
+  margin-top: 5px;
+}
+
+.yellow {
+  color: #f1db25;
+}
+
+.image-container {
+  position: relative;
+  text-align: center;
+}
+
+.w100 {
+  width: 100%; /* Make the image take the full width of the container */
+  display: block; /* Remove bottom space under the image */
+}
+
+.our-services {
+  padding-left: 10px;
+  padding-right: 10px;
+}

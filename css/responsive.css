@@ -66,6 +66,8 @@
     margin-left: 0;
     width: 100%;
     box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.15);
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 
   .service_section .service_container {
@@ -103,6 +105,47 @@
   .info_section .info_form .social_box a {
     margin: 0 5px;
   }
+
+  .sm-layout-padding {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .sm-heading-center h2::before {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .sm-text-center {
+    text-align: center;
+  }
+
+  .sm-hidden {
+    display: none;
+  }
+
+  .image-container .text-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sm-small-font-heading {
+    font-size: 2rem;
+  }
+
+  .sm-small-font-secondary-heading {
+    font-size: 1.5rem;
+  }
+
+  .sm-small-font-phone-description {
+    font-size: 11px;
+  }
 }
 
 @media (max-width: 576px) {
@@ -125,5 +168,18 @@
 @media (min-width: 1200px) {
   .container {
     max-width: 1170px;
+  }
+}
+
+@media (min-width: 769px) {
+  .md-layout-padding {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+
+  .image-container .text-overlay {
+    position: absolute;
+    top: 20%;
+    left: 10%;
   }
 }
