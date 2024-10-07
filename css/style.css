@@ -927,10 +927,10 @@ a:focus {
 
 .heading {
   margin-top: 0;
-  text-transform: uppercase;
   font-size: 3rem;
   color: #ffffff;
   font-weight: 600;
+  text-align: center;
 }
 
 .phone-heading {

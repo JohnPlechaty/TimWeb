@@ -35,7 +35,7 @@
     <!-- header section strats -->
 
     <header class="header_section">
-      <div class="header_top">
+      <div class="header_top" id="home">
         <div class="container-fluid">
           <div class="contact_link-container">
             <a href="" class="contact_link1">
@@ -55,13 +55,14 @@
         <div class="text-overlay sm-overlay-position">
           <div class="col-md-7">
             <div class="detail-box">
-              <h1 class="heading sm-small-font-heading">
-
-                PT Doprava
+              <h1 class="heading">
+                PTDoprava
               </h1>
+              <!--
               <div class="heading yellow sm-small-font-secondary-heading">
                 Spolehlivě dovezeme, cokoli budete chtít
               </div>
+              
 
               <div class="phone-heading sm-small-font-phone-description">
                 <div>Volejte kdykoliv:</div>
@@ -69,8 +70,20 @@
                   <a href="tel:+420 773 128 118" style="color:#FF0000;">773 128 118</a>
                 </div>
               </div>
+              -->
+              
             </div>
+          
           </div>
+        
+        </div>
+        <div class="navbar">
+          <a href="#home">Úvod</a> / 
+          <a href="#pricelist">Ceník</a> / 
+          <a href="#our-services">Odtahy</a> / 
+          <a href="#our-services">Dovoz DE</a> / 
+          <a href="#contacts">Kontakty</a> / 
+          <a href="#gallery">Fotogalerie</a> 
         </div>
       </div>
     </div>
@@ -80,7 +93,7 @@
 
   <!-- about section -->
 
-  <section class="about_section md-layout-padding">
+  <section class="about_section md-layout-padding" id="our-services">
     <div class="container">
       <div class="row">
         <div class="col-md-6 px-0 sm-hidden">
@@ -120,7 +133,7 @@
 
   <!-- contact section -->
 
-  <section class="service_section sm-layout-padding layout_padding">
+  <section class="service_section sm-layout-padding layout_padding" id="contacts">
     <div class="container">
       <div class="heading_container heading_center">
         <h2 class="sm-small-font-heading">
@@ -174,7 +187,7 @@
   <!-- cenik section -->
 
   <section class="contact_section sm-layout-padding layout_padding">
-    <div class="contact_bg_box">
+    <div class="contact_bg_box" id="pricelist">
       <div class="img-box">
         <img src="images/ptdoprava3.jpg" alt="" />
       </div>
@@ -189,7 +202,7 @@
         <div class="row">
           <div class="col-md-7 mx-auto">
             <form action="#">
-              <div class="w3-container" id="pricelist"
+              <div class="w3-container"
                 style="width:100%;max-width:1100px;margin-top:40px;margin-bottom:80px;padding: 15px; background-color: #94949464;">
 
                 <p class="w3-xlarge w3-center">
@@ -247,7 +260,7 @@
   <!-- client section -->
 
   <section class="client_section sm-layout-padding layout_padding">
-    <div class="container ">
+    <div class="container" id="gallery">
       <div class="heading_container heading_center">
         <h2 class="sm-small-font-heading">
           Galerie
