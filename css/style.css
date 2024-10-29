@@ -231,6 +231,18 @@ a:focus {
           box-shadow: none;
 }
 
+
+.detail-box-overlap {  
+  padding: 20px;
+  z-index: 1;
+  background-color: #a5a5a5;
+  position: relative;
+  margin-left: -30px; /* Adjust this value to control overlap amount */
+  margin-right: -30px; /* Applies to sections with images on the right */
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 .navbar-brand {
   display: -webkit-box;
   display: -ms-flexbox;
