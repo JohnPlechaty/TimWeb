@@ -615,6 +615,7 @@ a:focus {
   object-fit: cover; /* Ensures images fill each grid cell */
 }
 
+
 .client_section .carousel-control-prev,
 .client_section .carousel-control-next {
   position: absolute;
