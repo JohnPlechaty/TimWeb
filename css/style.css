@@ -1018,7 +1018,7 @@ a:focus {
     display: none;
   }
 
-  .callMe{
+  .callMe {
     display: none;
   }
 
@@ -1034,6 +1034,18 @@ a:focus {
   .detail-box-overlap {
     margin: 0;
     padding: 20px;
-    background-color: #a5a5a5;
+  }
+}
+
+.smolImage {
+  height: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width:768.01px) {
+  .smolImage {
+    display: none;
   }
 }
