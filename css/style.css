@@ -1000,6 +1000,17 @@ a:focus {
   padding-right: 10px;
 }
 
+@media (max-width: 1648px) {
+  .img-pricelist-big {
+    display: none;
+  }
+}
+
+@media (max-width: 1238px) {
+  .img-pricelist-medium {
+    display: none;
+  }
+}
 
 /* Hide images and make sections full-width on small screens */
 @media (max-width: 768px) {
